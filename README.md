@@ -1,1 +1,1 @@
-# mapbd.github.io
+http://mapbd.github.io/
