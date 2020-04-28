@@ -12,16 +12,16 @@ Functionality
 **OsmAnd (OSM Automated Navigation Directions)**
 
 
-## Some of the main features:
+// ## Some of the main features:
 
-#### Navigation
+// #### Navigation
 
- * Compact offline vector maps
+ //* Compact offline vector maps
  
- [improving translations](https://hosted.weblate.org/projects/osmand/)
+ //[improving translations](https://hosted.weblate.org/projects/osmand/)
  
  
- http://osmand.net/help-online#buy_app
+ //http://osmand.net/help-online#buy_app
  
  
  ####  Approximate map coverage and quality:
