@@ -15,6 +15,9 @@
 <a href="https://birampur.github.io/" target="_blank">
 <img src="https://raw.githubusercontent.com/mapbd/mapbd.github.io/master/image/birampurmaptile.png" alt="Offline and Online Map Tile provider" height="60"/> Offline and Online Map Tile provider </a> 
 
+<a href="https://boilfield.github.io/cox/" target="_blank">
+<img src="https://raw.githubusercontent.com/boilfield/cox/master/favicon.ico" alt="GIS Field Survey" height="60"/>GIS Field Survey</a>
+
 <a href="https://birampur.github.io/corona/" target="_blank">
 <img src="https://raw.githubusercontent.com/mapbd/mapbd.github.io/master/coronalogo.png" alt="Corona dynamic Map" height="60"/> Simple Corona dynamic Map </a> 
 
