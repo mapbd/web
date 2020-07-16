@@ -22,4 +22,4 @@
 <img src="https://raw.githubusercontent.com/mapbd/mapbd.github.io/master/coronalogo.png" alt="Corona dynamic Map" height="60"/> Simple Corona dynamic Map </a> 
 
 <a href="https://arahmandc.github.io/rs/" target="_blank">
-<img src="https://raw.githubusercontent.com/mapbd/mapbd.github.io/master/rs.png" alt="GIS Map Based Dynamic Real Estate Platform" height="60"/> GIS Map Based Dynamic Real Estate Platform </a> 
+<img src="https://raw.githubusercontent.com/mapbd/mapbd.github.io/master/image/rs.png" alt="GIS Map Based Dynamic Real Estate Platform" height="60"/> GIS Map Based Dynamic Real Estate Platform </a> 
