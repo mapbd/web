@@ -149,7 +149,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #1E3054;
+	color: #282923;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -180,7 +180,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #1E3054;
+    border-bottom: 1px solid #282923;
     content: "";
     display: block;
     left: 45%;
@@ -495,14 +495,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #1E3054;
+    background: url("../img/right.png") no-repeat scroll center center #282923;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #1E3054;
+    background: url("../img/left.png") no-repeat scroll center center #282923;
     height: 50px;
     width: 50px;
     left: 0;
@@ -513,7 +513,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #1E3054; FF6201 1E3054
+    background-color: #282923; FF6201 282923
     color: #fff;
 }
 
