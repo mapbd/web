@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<>
 <head>
   <title> MapBD</title>
 <meta name="og:title" content="">
@@ -58,7 +58,7 @@
 <link href="bootstrap.min.css" rel="stylesheet" />
 
 </head>
-<div class="layout-page
+< class="layout-page
 ispage-">
   <script type="text/javascript">
   // paste your analytics trackers here
@@ -115,23 +115,14 @@ ispage-">
 <ul>
   
 </ul>
-</div></div>
+</div>
+</div>
+
+
   <div class="section"></div>
   <div class="container">
-    <div class='prose'>
-      <!-- <h4>GIVE US A CALL OR DROP US A NOTE! </h4>
-      <p style="text-align: justify;"> We look forward to your inquiries and the opportunity to assist your business, organization or agency. Thank you for your time and consideration.</p> -->
-
-<!-- <h2 id="minutes">Minutes</h2>
-
-<p>Board meeting minutes <a href="https://wiki.openstreetmap.org/wiki/Foundation/Local_Chapters/United_States/Minutes">are posted</a> to the OpenStreetMap Wiki.</p>
-
-<div class="section">
-  <div class="section-header">
-      <h2>Incumbent board</h2>
-  </div> -->
-<!-- </div>
-</div> -->
+    <div class="prose">
+  
 
 
 
@@ -140,20 +131,20 @@ ispage-">
 
 
 
-  <section class="contact-section section">
-    <div class=container>
-    <div class=row>
+  <section id="contact" class="contact-section section">
+    <div class="container">
+    <div class="row">
     <div class="contact-details col-md-6">
-    <h3 class=mb-4>GIVE US A CALL OR DROP US A NOTE!</h3>
-    <p class=mb-5>We look forward to your inquiries and the opportunity to assist your business, organization or agency. Thank you for your time and consideration.</p>
+    <h3 class="mb-4">GIVE US A CALL OR DROP US A NOTE!</h3>
+    <p class="mb-5">We look forward to your inquiries and the opportunity to assist your business, organization or agency. Thank you for your time and consideration.</p>
 
 
 
 
 
-    <div class=row>
+    <div class="row">
     <div class="col-lg-6 mb-5 mb-lg-0">
-    <h4 class=mb-5>Address</h4>
+    <h4 class="mb-5">Address</h4>
     <ul class="contact-short-info list-unstyled">
     <li>
     <i class="glyphicon-home mb-5"></i>
@@ -163,7 +154,7 @@ ispage-">
     <i class="ti-mobile mb-5"></i>
     <span>+8801723466199</span>
     </li><li>
-    <span>arahman.dcc2@gmail.com</span>
+    <span>ask@map-bd.org</span>
     </li>
   
     </ul>
@@ -172,40 +163,61 @@ ispage-">
     </div>
     </div>
     <div class="contact-form col-lg-6">
-    <h3 class=mb-4>Send us an Email:</h3>
-    <form id=contact-form method=post action=#>
-    <div class=row>
-    <div class=col-lg-5>
-    <div class=form-group>
-    <input type=text placeholder="Your Name" class=form-control name=name id=name>
-    </div>
-    </div>
-    <div class=col-lg-5>
-    <div class=form-group>
-    <input type=email placeholder="Your Email" class=form-control name=email id=email>
-    </div>
-    </div>
-    </div>
-    <div class=row>
-    <div class=col-lg-5>
-    <div class=form-group>
-    <input type=text placeholder=Subject class=form-control name=subject id=subject>
-    </div>
-    </div>
-    <div class=col-lg-5>
-    <div class=form-group>
-    <input type=text placeholder=Phone class=form-control name=Phone id=phone>
-    </div>
-    </div>
-    </div>
-    <div class=form-group>
-    <textarea rows=4 placeholder=Message class=form-control name=message id=message></textarea>
-    </div>
-    <div class=mt-6>
-    <input type=submit id=contact-submit class="btn btn-black btn-small" value="Send Message">
-    </div>
-    </form>
+    <h3 class="mb-4">Send us an Email:</h3>
+
+
     
+    <form action="#" method="post">
+      <div class="">
+          <div class="row">
+              <div class="mt-6">
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                  </div>
+              </div>
+              <div class="mt-6">
+                  <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                  </div>
+              </div>
+              <div class="mt-6">
+                  <div class="form-group">
+                      <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+                  </div>
+              </div>
+              <div class="mt-6">
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Mail's subject" required>
+                  </div>
+              </div>
+              <div class="mt-6">
+                  <div class="form-group">
+                      <textarea name="message" class="form-control" id="message" cols="100%" rows="4" placeholder="Your Message" required></textarea>
+                  </div>
+              </div>
+              <div class="mt-6">
+                  <!-- <button type="submit" class="btn submit-btn">Send Now</button> -->
+                  <a style="background-color: rgb(175, 169, 180);" type="submit" id="sendMail" class="btn btn-black btn-small" target="_blank">Send</a>
+              </div>
+          </div>
+      </div>
+  </form>
+  <script>
+      let button  = document.getElementById("sendMail");
+      button.addEventListener("click", function() {
+          let form    = document.getElementById("contact").querySelector("form");
+          let mailto  = "ask@map-bd.org";
+          let mail    = form.querySelector("#email").value;
+          let subject = form.querySelector("#subject").value;
+          let name    = form.querySelector("#name").value;
+          let body    = "From: " + name + "%0D%0A" +
+              "Email: " + mail + "%0D%0A" +
+              "%0D%0A" +
+              form.querySelector("#message").value;
+          console.log(body);
+          button.href = "mailto:" + mailto + "?subject=" + subject + "&body=" + body;
+      });
+  </script>
     </div>
     </div>
     </div>
@@ -215,6 +227,8 @@ ispage-">
 
     </div>
   <div class="themed banner-footer"></div>
+  </div>
+  </div>
 </article>
 
   </div>
@@ -543,5 +557,27 @@ document.addEventListener('click', function(e) {
   <script type="text/javascript">
   // put your custom JS here
 </script>
+
+<script>
+  let button  = document.getElementById("sendMail");
+          button.addEventListener("click", function() {
+              let form    = document.getElementById("contact").querySelector("form");
+              let mailto  = "ask@map-bd.org";
+              let mail    = form.querySelector("#email").value;
+              let phone    = form.querySelector("#phone").value;
+              let subject = form.querySelector("#subject").value;
+              let name    = form.querySelector("#name").value;
+              let body    = "From: " + name + "%0D%0A" +
+                  "Email: " + mail + "%0D%0A" +
+                  "Phone: " + phone + "%0D%0A" +
+                  "%0D%0A" +
+                  form.querySelector("#message").value;
+              console.log(body);
+              button.href = "mailto:" + mailto + "?subject=" + subject + "&body=" + body;
+          });
+</script>
+
+
+
 </body>
 </html>
