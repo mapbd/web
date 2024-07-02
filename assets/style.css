@@ -2152,3 +2152,17 @@ h1 {
   font-size: 40px;
   text-shadow: 2px 2px #F20807;
 }
+
+
+.img-sign {
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  border: 1px solid #dedede;
+  height: 140px;
+  width: 350px;
+}
+
+
+
+
