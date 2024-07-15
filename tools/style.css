@@ -792,6 +792,7 @@ iframe.embedded-page-viewer {
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
+  align-items: center;
 }
 .layout-project img.hero-image {
   width: 100%;
@@ -1437,7 +1438,8 @@ article .post-body {
   background-size: cover;
   border-radius: 16px;
   border: 1px solid #dedede;
-  height: 140px;
+  height: 200px;
+  width: 300px;
 }
 .app-sign .status-bubble {
   top: -10px;
