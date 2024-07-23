@@ -1,3 +1,0 @@
-## wikipedia Type
-
-`string`

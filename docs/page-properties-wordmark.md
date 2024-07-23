@@ -1,3 +1,0 @@
-## wordmark Type
-
-`string`

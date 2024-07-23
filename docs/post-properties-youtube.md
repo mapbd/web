@@ -1,3 +1,0 @@
-## youtube Type
-
-`string`

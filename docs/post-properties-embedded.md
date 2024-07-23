@@ -1,3 +1,0 @@
-## embedded Type
-
-`string`

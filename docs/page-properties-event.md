@@ -1,3 +1,0 @@
-## event Type
-
-`string`

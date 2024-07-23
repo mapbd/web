@@ -1,3 +1,0 @@
-## caption Type
-
-`string`

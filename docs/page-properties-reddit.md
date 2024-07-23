@@ -1,3 +1,0 @@
-## reddit Type
-
-`string`

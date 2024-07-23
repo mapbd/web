@@ -1,3 +1,0 @@
-## blurb Type
-
-`string`

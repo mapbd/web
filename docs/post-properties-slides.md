@@ -1,3 +1,0 @@
-## slides Type
-
-`string`

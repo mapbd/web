@@ -1,3 +1,0 @@
-## mastodon Type
-
-`string`

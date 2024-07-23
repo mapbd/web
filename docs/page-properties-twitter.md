@@ -1,3 +1,0 @@
-## twitter Type
-
-`string`

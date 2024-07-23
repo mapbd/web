@@ -1,3 +1,0 @@
-## room Type
-
-`string`

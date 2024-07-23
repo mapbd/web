@@ -1,3 +1,0 @@
-## meetup Type
-
-`string`
