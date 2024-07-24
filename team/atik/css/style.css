@@ -95,7 +95,8 @@ section {
     margin-bottom: 0px;
 }
 
-.time {
+.times {
+    float: right;
     font-size: 15px;
     font-weight: 500;
     color: #000;

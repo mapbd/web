@@ -58,6 +58,8 @@
 <link href="style.css" rel="stylesheet" />
 
 
+
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -141,22 +143,90 @@ ispage-">
                   <h2 class="section-title">
                       <span class="fa-stack fa-xs">
                           <i class="fas fa-circle fa-stack-2x"></i>
-                          <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                          <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
                       </span>
                       Work History
                   </h2>
 
                   <div class="school">
                       <div class="upper-row">
-                          <h3 class="school-name">Github University</h3>
-                          <div class="time">Graduation - Dec. 2025</div>
+                          <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                          <div class="time">Sep. 2022 – Present</div>
                       </div>
-                      <div class="school-title">B.S. Computer Science, GPA 4.0 / 4.0</div>
+                      <div class="school-title">GIS Analyst &  Manager (Field Operations)</div>
 
-                      <b>Relevant Coursework:</b> Software Engineering, Data Structures, Software Development,
+                      <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
                       Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
                       Computer Networks, Discrete Math
                   </div>
+                  <br>
+
+                  <div class="school">
+                    <div class="upper-row">
+                        <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                        <div class="time">Sep. 2022 – Present</div>
+                    </div>
+                    <div class="school-title">GIS Assistant &  Manager (Field Operations)</div>
+
+                    <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
+                    Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
+                    Computer Networks, Discrete Math
+                </div>
+
+                <br>
+
+                  <div class="school">
+                    <div class="upper-row">
+                        <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                        <div class="time"> </div>
+                    </div>
+                    <div class="school-title">GIS Assistant &  Manager (Field Operations)</div>
+
+                    <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
+                    Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
+                    Computer Networks, Discrete Math
+                </div>
+
+                <br>
+
+                  <div class="school">
+                    <div class="upper-row">
+                        <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                        <div class="time"> </div>
+                    </div>
+                    <div class="school-title">GIS Assistant &  Manager (Field Operations)</div>
+
+                    <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
+                    Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
+                    Computer Networks, Discrete Math
+                </div>
+
+                <br>
+
+                  <div class="school">
+                    <div class="upper-row">
+                        <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                        <div class="time"> </div>
+                    </div>
+                    <div class="school-title">GIS Assistant &  Manager (Field Operations)</div>
+
+                    <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
+                    Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
+                    Computer Networks, Discrete Math
+                </div>
+                <br>
+
+                  <div class="school">
+                    <div class="upper-row">
+                        <h3 class="school-name">Bangladesh Open Innovation Lab (BOIL)</h3>
+                        <div class="time"> </div>
+                    </div>
+                    <div class="school-title">GIS Assistant &  Manager (Field Operations)</div>
+
+                    <b>Duties/Responsibilities:</b> Software Engineering, Data Structures, Software Development,
+                    Systems Programming, Mobile Software Development, Web Programming, Computer Architecture,
+                    Computer Networks, Discrete Math
+                </div>
               </section>
 
               
@@ -165,7 +235,7 @@ ispage-">
                   <h2 class="section-title">
                       <span class="fa-stack fa-xs">
                           <i class="fas fa-circle fa-stack-2x"></i>
-                          <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+                          <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
                       </span>
                       Academic Qualification
                   </h2>
@@ -474,7 +544,7 @@ ispage-">
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
-  fetch("https://osmus.github.io/dogwood/assets/icons/fa-solid.svg")
+  fetch("../../assets/icons/fa-solid.svg")
     .then(function(response) {
         return response.text();
     })
@@ -484,7 +554,7 @@ ispage-">
         document.body.insertBefore(div, document.body.childNodes[0]);
     });
 
-fetch("https://osmus.github.io/dogwood/assets/icons/fa-brands.svg")
+fetch("../../assets/icons/fa-brands.svg")
     .then(function(response) {
         return response.text();
     })
@@ -493,24 +563,24 @@ fetch("https://osmus.github.io/dogwood/assets/icons/fa-brands.svg")
         div.innerHTML = text;
         document.body.insertBefore(div, document.body.childNodes[0]);
     });
-  document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll('.time').forEach(function(el) {
-    var targetTimeZone = el.getAttribute('totimezone') || undefined;
-    var sourceTime = el.getAttribute('time') && parseInt(el.getAttribute('time') + '000');
-    var date = (sourceTime && new Date(sourceTime)) || parseTime(el.textContent);
-    var timeZoneLabel = date.toLocaleDateString(undefined, {
-      day: '2-digit',
-      timeZoneName: 'long',
-      timeZone: targetTimeZone,
-    }).substring(4);
-    var localizedTimeString = date.toLocaleString(undefined, {
-      hour: 'numeric',
-      minute: 'numeric',
-      timeZoneName: 'short',
-      timeZone: targetTimeZone,
-    });
-    el.innerHTML = '<span title="' + timeZoneLabel + '">' + localizedTimeString + '</span>';
-  });
+  // document.addEventListener("DOMContentLoaded", function() {
+  // document.querySelectorAll('.time').forEach(function(el) {
+  //   var targetTimeZone = el.getAttribute('totimezone') || undefined;
+  //   var sourceTime = el.getAttribute('time') && parseInt(el.getAttribute('time') + '000');
+  //   var date = (sourceTime && new Date(sourceTime)) || parseTime(el.textContent);
+  //   var timeZoneLabel = date.toLocaleDateString(undefined, {
+  //     day: '2-digit',
+  //     timeZoneName: 'long',
+  //     timeZone: targetTimeZone,
+  //   }).substring(4);
+  //   var localizedTimeString = date.toLocaleString(undefined, {
+  //     hour: 'numeric',
+  //     minute: 'numeric',
+  //     timeZoneName: 'short',
+  //     timeZone: targetTimeZone,
+  //   });
+  //   el.innerHTML = '<span title="' + timeZoneLabel + '">' + localizedTimeString + '</span>';
+  // });
 
   document.querySelectorAll('.day-long').forEach(function(el) {
     var targetTimeZone = el.getAttribute('totimezone') || undefined;
